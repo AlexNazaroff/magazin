@@ -1,0 +1,257 @@
+.modal-quickview .inplace-initialized[data-inplace-rich]:after {
+  left: auto;
+  right: -5px; }
+
+.inplace-initialized[data-inplace-rich], .inplace-initialized[data-inplace-modal], .inplace-initialized[data-inplace-autocomplete],
+.inplace-initialized.inplace-price-container .price-current .price-number,
+.inplace-initialized.inplace-price-container .price-old .price-number,
+.inplace-initialized.inplace-price-container .price-discount-abs,
+.inplace-initialized.inplace-price-container .price-discount-percent,
+.inplace-initialized.inplace-price-container .price-unknown {
+  position: relative;
+  border-radius: 0.3125rem; }
+  .inplace-initialized[data-inplace-rich]:after, .inplace-initialized[data-inplace-modal]:after, .inplace-initialized[data-inplace-autocomplete]:after,
+  .inplace-initialized.inplace-price-container .price-current .price-number:after,
+  .inplace-initialized.inplace-price-container .price-old .price-number:after,
+  .inplace-initialized.inplace-price-container .price-discount-abs:after,
+  .inplace-initialized.inplace-price-container .price-discount-percent:after,
+  .inplace-initialized.inplace-price-container .price-unknown:after {
+    position: absolute;
+    top: -0.3125rem;
+    bottom: -0.3125rem;
+    left: 100%;
+    margin-left: 5px;
+    display: block;
+    width: 1.5625rem;
+    border-radius: 0 0.3125rem 0.3125rem 0;
+    background: #eee url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZmlsbD0iIzcwNzA3MCIgZD0iTTQyMi45NTMsMTc2LjAxOWMwLjU0OS0wLjQ4LDEuMDktMC45NzUsMS42MTItMS40OThsMjEuNzcyLTIxLjc3MmMxMi44ODMtMTIuODgzLDEyLjg4My0zMy43NzEsMC00Ni42NTQNCgkJbC00MC40MzQtNDAuNDM0Yy0xMi44ODMtMTIuODgzLTMzLjc3MS0xMi44ODMtNDYuNjUzLDBsLTIxLjc3MiwyMS43NzJjLTAuNTIzLDAuNTIzLTEuMDE4LDEuMDY0LTEuNDk4LDEuNjEzTDQyMi45NTMsMTc2LjAxOXoiLz48cG9seWdvbiBmaWxsPSIjNzA3MDcwIiBwb2ludHM9IjExNC4zMTcsMzk3LjY4NCAxNTcuMzE3LDQ0MC42ODQgMTA2LjY1OCw0NDguMzQyIDU2LDQ1NiA2My42NTgsNDA1LjM0MSA3MS4zMTYsMzU0LjY4MyIvPjxwb2x5Z29uIGZpbGw9IiM3MDcwNzAiIHBvaW50cz0iMzQ5LjE0MywxMjUuNTM1IDExOC45ODIsMzU1LjY5NCAxMDYuNTQxLDM0My4yNTMgMzM2LjcwMSwxMTMuMDk0IDMyNC4yNiwxMDAuNjUzIDgxLjY1OSwzNDMuMjUzIA0KCQkxNjguNzQ3LDQzMC4zNDEgNDExLjM0OCwxODcuNzQiLz48L2c+PC9zdmc+") center center no-repeat;
+    background-size: 95% auto;
+    content: "";
+    visibility: hidden; }
+  .inplace-initialized[data-inplace-rich]:hover, .inplace-initialized[data-inplace-modal]:hover, .inplace-initialized[data-inplace-autocomplete]:hover,
+  .inplace-initialized.inplace-price-container .price-current .price-number:hover,
+  .inplace-initialized.inplace-price-container .price-old .price-number:hover,
+  .inplace-initialized.inplace-price-container .price-discount-abs:hover,
+  .inplace-initialized.inplace-price-container .price-discount-percent:hover,
+  .inplace-initialized.inplace-price-container .price-unknown:hover {
+    -webkit-box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+    box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+    background: #fff;
+    z-index: 100; }
+    .inplace-initialized[data-inplace-rich]:hover:after, .inplace-initialized[data-inplace-modal]:hover:after, .inplace-initialized[data-inplace-autocomplete]:hover:after,
+    .inplace-initialized.inplace-price-container .price-current .price-number:hover:after,
+    .inplace-initialized.inplace-price-container .price-old .price-number:hover:after,
+    .inplace-initialized.inplace-price-container .price-discount-abs:hover:after,
+    .inplace-initialized.inplace-price-container .price-discount-percent:hover:after,
+    .inplace-initialized.inplace-price-container .price-unknown:hover:after {
+      display: block;
+      visibility: visible; }
+  .inplace-initialized[data-inplace-rich]:focus, .inplace-initialized[data-inplace-modal]:focus, .inplace-initialized[data-inplace-autocomplete]:focus,
+  .inplace-initialized.inplace-price-container .price-current .price-number:focus,
+  .inplace-initialized.inplace-price-container .price-old .price-number:focus,
+  .inplace-initialized.inplace-price-container .price-discount-abs:focus,
+  .inplace-initialized.inplace-price-container .price-discount-percent:focus,
+  .inplace-initialized.inplace-price-container .price-unknown:focus {
+    outline: none; }
+    .inplace-initialized[data-inplace-rich]:focus:after, .inplace-initialized[data-inplace-modal]:focus:after, .inplace-initialized[data-inplace-autocomplete]:focus:after,
+    .inplace-initialized.inplace-price-container .price-current .price-number:focus:after,
+    .inplace-initialized.inplace-price-container .price-old .price-number:focus:after,
+    .inplace-initialized.inplace-price-container .price-discount-abs:focus:after,
+    .inplace-initialized.inplace-price-container .price-discount-percent:focus:after,
+    .inplace-initialized.inplace-price-container .price-unknown:focus:after {
+      display: none; }
+
+.inplace-initialized[data-inplace-rich].inplace-offset, .inplace-initialized[data-inplace-modal].inplace-offset, .inplace-initialized[data-inplace-autocomplete].inplace-offset,
+.inplace-initialized.inplace-price-container.inplace-offset .price-current .price-number,
+.inplace-initialized.inplace-price-container.inplace-offset .price-old .price-number,
+.inplace-initialized.inplace-price-container.inplace-offset .price-discount-abs,
+.inplace-initialized.inplace-price-container.inplace-offset .price-discount-percent,
+.inplace-initialized.inplace-price-container.inplace-offset .price-unknown {
+  border-radius: 0.3125rem 0 0 0.3125rem; }
+  .inplace-initialized[data-inplace-rich].inplace-offset:focus, .inplace-initialized[data-inplace-modal].inplace-offset:focus, .inplace-initialized[data-inplace-autocomplete].inplace-offset:focus,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-current .price-number:focus,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-old .price-number:focus,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-discount-abs:focus,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-discount-percent:focus,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-unknown:focus {
+    border-radius: 0.3125rem;
+    outline: none; }
+  .inplace-initialized[data-inplace-rich].inplace-offset:after, .inplace-initialized[data-inplace-modal].inplace-offset:after, .inplace-initialized[data-inplace-autocomplete].inplace-offset:after,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-current .price-number:after,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-old .price-number:after,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-discount-abs:after,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-discount-percent:after,
+  .inplace-initialized.inplace-price-container.inplace-offset .price-unknown:after {
+    right: auto;
+    left: 100%;
+    -webkit-box-shadow: 0 0 0.3125rem 0 #ccc;
+    box-shadow: 0 0 0.3125rem 0 #ccc; }
+
+.inplace-initialized[data-inplace-rich]:not(.inplace-rich-simple) {
+  min-width: 6.25rem;
+  min-height: 0.75rem; }
+
+.inplace-rich-simple br {
+  display: none; }
+
+.inplace-rich-empty {
+  font-style: italic;
+  /*color: #4b4f58;*/ }
+
+[data-inplace-autocomplete].inplace-initialized.inplace-autocomplete-focus {
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  background-color: #fff; }
+  [data-inplace-autocomplete].inplace-initialized.inplace-autocomplete-focus:after {
+    display: none; }
+  [data-inplace-autocomplete].inplace-initialized.inplace-autocomplete-focus .inplace-autocomplete-delete {
+    display: inline-block; }
+
+[data-inplace-autocomplete].inplace-initialized:hover {
+  background-color: #fff; }
+  [data-inplace-autocomplete].inplace-initialized:hover .inplace-autocomplete-delete {
+    display: inline; }
+
+.cke_focus,
+.inplace-price-focus .price-current .price-number,
+.inplace-price-focus .price-old .price-number,
+.inplace-price-focus .price-discount-abs,
+.inplace-price-focus .price-discount-percent,
+.inplace-price-focus .price-unknown {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  background-color: #fff; }
+
+@media (min-width: 48em) {
+  [data-inplace-rich]:hover {
+    background-color: #fff; } }
+
+.inplace-buttons {
+  position: absolute;
+  z-index: 8000;
+  border: 0.0625rem #ccc solid;
+  border-radius: 0 0 0.3125rem 0.3125rem;
+  background: #eee; }
+
+.inplace-buttons-item {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.875rem !important;
+  line-height: 1 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(30%, #fdfdfd), to(#f3f3f3));
+  background: linear-gradient(to bottom, white 0%, #fdfdfd 30%, #f3f3f3 100%);
+  border-radius: 0.3125rem;
+  border: 0.0625rem #ccc solid;
+  position: relative;
+  margin: 0.3125rem 0.3125rem;
+  color: #4b4f58 !important; }
+  .inplace-buttons-item:before {
+    margin: 0.125rem; }
+
+.inplace-buttons-rich {
+  margin: 0.3125rem 0 0 0; }
+
+.cke_focus.inplace-offset {
+  min-width: 6.25rem;
+  display: inline-block;
+  -webkit-transition: min-width linear 0.3s;
+  transition: min-width linear 0.3s; }
+
+.inplace-obj.cke_focus, .inplace-obj:hover {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  z-index: 5; }
+
+.inplace-autocomplete-wrap {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  width: 100%; }
+  .inplace-autocomplete-wrap:hover, .inplace-autocomplete-wrap.inplace-autocomplete-focus {
+    width: calc(100% - 25px); }
+    .inplace-autocomplete-wrap:hover input.inplace-autocomplete-input, .inplace-autocomplete-wrap.inplace-autocomplete-focus input.inplace-autocomplete-input {
+      width: calc(100% - 26px); }
+
+body input.inplace-autocomplete-input {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 100%; }
+
+.inplace-autocomplete-delete {
+  display: none;
+  vertical-align: middle; }
+
+.inplace-properties-new-wrap {
+  position: relative; }
+
+.inplace-progress {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 3.125rem; }
+  .inplace-progress:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.inplace-buttons-permanent-visible {
+  display: block; }
+
+.inplace-input-fake, .inplace-input-fake:hover, .inplace-input-fake:focus {
+  position: fixed;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: 0; }
+
+.inplace-price-panel {
+  position: absolute;
+  z-index: 100;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 0.1875rem;
+  -webkit-box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  box-shadow: 0 0 0 0.3125rem #fff, 0 0 0.3125rem 0.3125rem #ccc;
+  font-size: 0.875rem;
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+.inplace-price-panel-item {
+  margin: 0 5px;
+  display: inline; }
+
+.inplace-price-error {
+  border-color: #f15959;
+  background: #fff7f7;
+  -webkit-box-shadow: 0 0 0 0.3125rem #fff7f7;
+  box-shadow: 0 0 0 0.3125rem #fff7f7; }
+
+.inplace-price-panel-color-value {
+  display: inline-block;
+  vertical-align: middle; }
+
+.inplace-price-panel-size-value {
+  font-weight: bold; }
+
+.carousel .inplace-image-buttons {
+  margin-top: -2.125rem; }
+
+.inplace-image-buttons {
+  opacity: 0;
+  white-space: nowrap; }
+
+.inplace-image-buttons-rendered {
+  opacity: 1; }
